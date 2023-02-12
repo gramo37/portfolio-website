@@ -1,0 +1,19 @@
+.alert-container {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 20px;
+    color: var(--white);
+    border-radius: 15px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.show-alert {
+    transform: translate(-50%, 0);
+}
+
+.hide-alert {
+    transform: translate(-50%, -200px);
+}

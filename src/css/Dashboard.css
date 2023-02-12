@@ -1,0 +1,74 @@
+.dashboard-container {
+  position: relative;
+  color: var(--white);
+}
+
+.dashboard-info-container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--white);
+  background-color: var(--orange);
+  opacity: 0.9;
+}
+
+#dashboard-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+  z-index: 5;
+}
+
+.dashboard-profile-photo {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 100%;
+  background-position: top center;
+}
+
+.dashboard-profile-name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  transform: rotate(-5deg);
+  width: 100%;
+}
+
+.dashboard-profile-name {
+  font-size: 35px;
+  width: 400px;
+  text-align: center;
+  font-family: var(--primary-font);
+  font-weight: 400;
+}
+
+.dashboard-profile-name-line {
+  height: 5px;
+  width: 40px;
+  background-color: var(--white);
+  margin: 0px 10px;
+}
+
+.dashboard-profession {
+  margin: 5px 0px;
+  font-size: 14px;
+  font-family: var(--secondary-font);
+}
+
+@media only screen and (max-width: 500px){
+	.dashboard-profile-name {
+    font-size: 25px;
+  }
+}

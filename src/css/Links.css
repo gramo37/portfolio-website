@@ -1,0 +1,13 @@
+.links-container {
+  display: flex;
+  gap: 15px;
+  margin: 10px 10px;
+}
+
+.link-icons-container {
+    transition: 0.5s;
+  }
+  
+  .link-icons-container:hover {
+    scale: 1.3;
+  }
