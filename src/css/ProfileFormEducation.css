@@ -1,0 +1,21 @@
+.profile-form-education-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-form-add-education {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.profile-form-add-education button {
+    background-color: var(--orange);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--white);
+}

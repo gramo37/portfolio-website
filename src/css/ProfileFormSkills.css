@@ -1,0 +1,41 @@
+.profile-form-skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-form-skill{
+    border: 2px solid var(--orange);
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.profile-form-skill button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+    border: none;
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 100%;
+}
+
+.profile-form-add-skill {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.profile-form-add-skill button {
+    background-color: var(--orange);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--white);
+}

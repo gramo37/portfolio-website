@@ -1,0 +1,21 @@
+.profile-form-work-experience-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-form-add-experience {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.profile-form-add-experience button {
+    background-color: var(--orange);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--white);
+}

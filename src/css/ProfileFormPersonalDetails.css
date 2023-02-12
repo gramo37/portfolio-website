@@ -1,0 +1,110 @@
+.profile-photo-container {
+    display: flex;
+}
+
+.profile-photo {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 2px solid var(--orange);
+}
+
+.profile-name-email {
+    width: 100%;
+}
+
+.profile-form-container h3 {
+    margin: 10px 0px;
+    font-family: var(--secondary-font);
+}
+
+.profile-input, .profile-form-textarea textarea {
+    padding: 7px;
+    border-radius: 7px;
+    border: 2px solid var(--orange);
+    font-family: var(--tertiary-font);
+    font-size: 18px;
+}
+
+.profile-form-single-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-form-single-input input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 8px 0px;
+}
+
+.profile-form-double-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px auto;
+    gap: 5px;
+}
+
+.profile-form-double-input input {
+    width: 97%;
+}
+
+
+.profile-form-textarea textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 8px auto;
+    height: 150px;
+}
+
+.profile-form-add-intro-line {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.profile-form-add-intro-line button {
+    background-color: var(--orange);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--white);
+}
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .profile-form-container {
+        padding: 10px;
+    }
+
+    .profile-form-single-input, .profile-form-textarea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-form-single-input input, .profile-form-textarea textarea {
+        width: 100%;
+        margin: 5px auto;
+    }
+
+    .profile-form-double-input {
+        flex-direction: column;
+    }
+
+    .profile-form-double-input input {
+        width: 97%;
+    }
+}

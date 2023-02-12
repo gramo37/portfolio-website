@@ -1,0 +1,17 @@
+.profile-container h1 {
+  text-align: center;
+  font-family: var(--primary-font);
+}
+
+.profile-form-container {
+  width: 800px;
+  padding: 10px 50px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .profile-form-container {
+    width: fit-content;
+    padding: 10px;
+  }
+}
