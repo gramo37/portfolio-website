@@ -1,0 +1,15 @@
+.go-to-top-container {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 20;
+    margin: 20px;
+    background-color: var(--light-black);
+    padding: 4px;
+    border-radius: 100%;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

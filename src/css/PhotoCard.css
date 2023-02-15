@@ -1,0 +1,48 @@
+.photo-card-container{
+    display: flex;
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 20px 15px;
+    border-radius: 7px;
+    margin: 10px;
+    width: 50%;
+    height: 200px;
+    overflow-y: scroll;
+    gap: 10px;
+}
+
+.photo-card-photo {
+    width: 100px;
+    height: 100px;
+}
+
+.photo-card-photo img {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.photo-card-info-container a {
+    color: var(--white);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.photo-card-info-container h2 {
+    font-weight: var(--secondary-font);
+    margin: 0px;
+}
+
+.photo-card-info-container p {
+    overflow-wrap: anywhere;
+    font-weight: var(--tertiary-font);
+    margin: 7px 0px;
+    margin-bottom: 10px;
+}
+
+.photo-card-info-container ul li {
+    overflow-wrap: anywhere;
+}

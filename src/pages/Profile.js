@@ -16,6 +16,7 @@ const Profile = () => {
         <ProfileFormWorkExperience />
         <ProfileFormEducation />
         <ProfileFormProjects />
+        <div className='profile-form-submit-button'><button type='submit'>Submit Details</button></div>
       </form>
     </div>
   )

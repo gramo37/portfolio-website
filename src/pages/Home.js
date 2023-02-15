@@ -6,10 +6,12 @@ import Resume from '../components/Resume';
 import Skills from '../components/Skills';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import GoToTop from '../components/GoToTop';
 
 const Home = () => {
     return (
         <>
+            <GoToTop />
             <Dashboard />
             <About />
             <Resume />

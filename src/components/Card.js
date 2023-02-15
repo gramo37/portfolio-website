@@ -8,11 +8,11 @@ const Card = ({title, subTitle, period, about}) => {
         <button className='profile-form-wk-delete-btn'><CloseIcon /></button>
         <h2>{title}</h2>
         <p>{subTitle} - {period}</p>
-        <div>
+        <ul>
             {about.map((item) => {
-                return <p>{item}</p>
+                return <li>{item}</li>
             })}
-        </div>
+        </ul>
     </div>
   )
 }

@@ -1,21 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:wght@300&family=Space+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lato:wght@300&family=Space+Mono&display=swap");
 
 :root {
-    --primary-font: "Kaushan Script", cursive;
-    --secondary-font: "Space Mono", monospace;
-    --tertiary-font: 'Lato', sans-serif;
-    --orange: #ed810d;
-    --red: #ff0000eb;
-    --white: #fff;
-    --black: #000;
-    --light-black: #232323;
-    --dark-purple: #2f3c4f;
-    --light-gray: #7f7f7f;
-    --very-light-gray: #e2e2e2;
+  --primary-font: "Kaushan Script", cursive;
+  --secondary-font: "Space Mono", monospace;
+  --tertiary-font: "Lato", sans-serif;
+  --orange: #ed810d;
+  --dark-orange: #ed670d;
+  --red: #ff0000eb;
+  --white: #fff;
+  --black: #000;
+  --light-black: #232323;
+  --dark-purple: #2f3c4f;
+  --light-gray: #7f7f7f;
+  --very-light-gray: #e2e2e2;
 }
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--orange);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--dark-orange);
+}

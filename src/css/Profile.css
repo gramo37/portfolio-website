@@ -9,6 +9,32 @@
   margin: auto;
 }
 
+.profile-form-submit-button {
+  display: flex;
+  justify-content: center;
+  margin: 20px 10px;
+}
+
+.profile-form-submit-button button {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: var(--orange);
+  margin: auto;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.profile-form-submit-button button:hover {
+  color: var(--orange);
+  background-color: var(--white);
+  border: 2px solid var(--orange);
+}
+
 @media only screen and (max-width: 1000px) {
   .profile-form-container {
     width: fit-content;

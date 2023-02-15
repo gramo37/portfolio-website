@@ -4,6 +4,9 @@
     padding: 20px 15px;
     border-radius: 7px;
     margin: 10px;
+    width: 35%;
+    height: 200px;
+    overflow-y: scroll;
 }
 
 .profile-form-card-container h2 {
@@ -14,6 +17,11 @@
 .profile-form-card-container p {
     font-weight: var(--tertiary-font);
     margin: 10px 0px;
+    overflow-wrap: anywhere;
+}
+
+.profile-form-card-container ul li {
+    overflow-wrap: anywhere;
 }
 
 .profile-form-wk-delete-btn {
