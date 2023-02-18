@@ -1,0 +1,131 @@
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
+.card-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--very-light-gray);
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.98;
+  overflow: scroll;
+}
+
+.card-modal-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0px;
+}
+
+.card-modal-container h2 {
+    font-family: var(--secondary-font);
+}
+
+.card-modal-close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  color: var(--orange);
+}
+
+.card-modal-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 800px;
+  position: relative;
+}
+
+.card-modal-responsibility-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  row-gap: 10px;
+}
+
+.card-modal-responsibility, .card-modal-responsibility span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.card-modal-responsibility {
+    width: 100%;
+    color: var(--orange);
+}
+
+.card-modal-date-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.card-modal-form input {
+  outline: none;
+  border: 2px solid var(--orange);
+  padding: 10px;
+  border-radius: 7px;
+  width: 100%;
+  font-family: var(--secondary-font);
+}
+
+.card-modal-label {
+  margin: 0px;
+  font-family: var(--primary-font);
+}
+
+.card-modal-form button {
+  outline: none;
+  border: none;
+  color: var(--white);
+  background-color: var(--orange);
+  padding: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: var(--tertiary-font);
+  text-transform: uppercase;
+}
+
+.card-modal-submit-button {
+  width: 50% !important;
+}
+
+.card-modal-form button:hover {
+  scale: 1.1;
+  border: 1px solid var(--orange);
+  background-color: var(--white);
+  color: var(--orange);
+}
+
+@media only screen and (max-width: 900px) {
+  .card-modal-form {
+    width: fit-content;
+    margin: 0px 30px;
+  }
+}
