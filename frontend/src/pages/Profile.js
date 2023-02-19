@@ -9,6 +9,7 @@ import { UserContext } from "../components/App"
 import axios from "axios"
 import {useNavigate} from "react-router-dom"
 import Shimmer from '../components/Shimmer'
+import { HOST } from '../config/config'
 
 export const DataContext = React.createContext();
 
@@ -27,7 +28,7 @@ const Profile = () => {
     console.log(data)
     // Make a API request to change user.json
     setLoading(true)
-    axios.put('http://localhost:5000/api/v1/editResumeDetails', data).then((res)=>{
+    axios.put(`${HOST}/api/v1/editResumeDetails`, data).then((res)=>{
       setLoading(false)
       navigation("/")
     }).catch((error) => {

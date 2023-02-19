@@ -1,5 +1,6 @@
 import React, { createContext, useState, Suspense } from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HOST } from '../config/config';
 import "../css/App.css"
 import useFetch from '../hooks/useFetch';
 import ProtectedRoute from './ProtectedRoute';
@@ -17,7 +18,7 @@ export const UserContext = createContext();
 
 const App = () => {
 
-  const {loading, data, error} = useFetch("http://localhost:5000/api/v1/getResumeDetails")
+  const {loading, data, error} = useFetch(`${HOST}/api/v1/getResumeDetails`)
 
   const showMyAlert = (alert, color) => {
     showAlert(true)
