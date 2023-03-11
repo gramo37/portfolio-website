@@ -31,16 +31,12 @@ function useFetch(url) {
     const [state, dispatch] = useReducer(reducer, initialState)
 
     useLayoutEffect(() => {
-        console.log(url)
         dispatch({ type: ACTIONS.API_REQUEST })
         axios.get(url).then((res) => {
-            console.log(res.data)
             return dispatch({ type: ACTIONS.FETCH_DATA, payload: res.data })
         }).catch((err) => {
-            console.log(err)
             return dispatch({ type: ACTIONS.ERROR, payload: err })
         })
-            
     },[url])
 
 

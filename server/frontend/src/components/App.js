@@ -14,11 +14,11 @@ const Alert = React.lazy(() => import("./Alert"))
 export const UserContext = createContext();
 
 // This data will later come from an API call
-const data = require("../data/prasanna-profile.json")
+// const data = require("../data/prasanna-profile.json")
 
 const App = () => {
 
-  // const { loading, data, error } = useFetch(`${HOST}/api/v1/getResumeDetails`)
+  const { loading, data, error } = useFetch(`${HOST}/api/v1/getResumeDetails`)
 
   const showMyAlert = (alert, color) => {
     showAlert(true)
@@ -34,11 +34,9 @@ const App = () => {
   const [alertName, showAlertName] = useState("")
   const [alertColor, setAlertColor] = useState("")
 
-  console.log(data)
+  if (error) return <div>Something went wrong</div>
 
-  // if (error) return <div>Something went wrong</div>
-
-  // if (loading) return <Shimmer />
+  if (loading) return <Shimmer />
 
   return (
     <UserContext.Provider value={{ ...data?.data, auth, setAuth, showMyAlert }}>
