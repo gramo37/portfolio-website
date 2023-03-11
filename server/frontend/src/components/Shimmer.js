@@ -10,7 +10,7 @@ const Shimmer = () => {
                 <div className='shimmer-profile-name'><span></span></div>
                 <div className='shimmer-links-container'>
                     {[1, 2, 3].map((item) => {
-                        return <div className='shimmer-link-item'></div>
+                        return <div key={item} className='shimmer-link-item'></div>
                     })}
                 </div>
                 <div className='shimmer-animation'></div>

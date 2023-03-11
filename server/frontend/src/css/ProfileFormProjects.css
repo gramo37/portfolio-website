@@ -4,3 +4,18 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+.profile-form-add-project {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.profile-form-add-project button {
+    background-color: var(--orange);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--white);
+}

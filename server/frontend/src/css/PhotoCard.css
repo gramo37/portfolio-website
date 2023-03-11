@@ -1,5 +1,6 @@
 .photo-card-container{
     display: flex;
+    align-items: flex-start;
     background-color: var(--orange);
     color: var(--white);
     padding: 20px 15px;

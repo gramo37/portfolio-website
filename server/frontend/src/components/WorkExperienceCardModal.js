@@ -3,7 +3,7 @@ import "../css/CardModal.css"
 import CloseIcon from '@mui/icons-material/Close';
 import { genrateUniqueId } from "../utils/generateId"
 
-const CardModal = ({ addExperience, closeModal }) => {
+const WorkExperienceCardModal = ({ addExperience, closeModal }) => {
 
     const [currentCompany, setCurrentCompany] = useState(false)
 
@@ -95,4 +95,4 @@ const CardModal = ({ addExperience, closeModal }) => {
     )
 }
 
-export default CardModal
+export default WorkExperienceCardModal

@@ -3,7 +3,7 @@ import "../css/ProfileFormWorkExperience.css"
 import { DataContext } from '../pages/Profile'
 import Card from './Card'
 import { genrateUniqueId } from "../utils/generateId"
-import CardModal from './CardModal'
+import WorkExperienceCardModal from './WorkExperienceCardModal'
 
 const ProfileFormWorkExperience = () => {
 
@@ -42,7 +42,7 @@ const ProfileFormWorkExperience = () => {
 
   return (
     <>
-      {showModal && <CardModal addExperience={addExperience} closeModal={() => setShowModal(false)} />}
+      {showModal && <WorkExperienceCardModal addExperience={addExperience} closeModal={() => setShowModal(false)} />}
       <h3>Work Experience</h3>
       <div className='profile-form-work-experience-container'>
         {Object.entries(workExperience).map((item) => {

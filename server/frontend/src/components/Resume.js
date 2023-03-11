@@ -33,13 +33,13 @@ const Resume = () => {
                 <div className='resume-status-line'></div>
                 <div className='resume-education-title'><h2>Education</h2></div>
                 <div className='resume-education-information'>
-                    {education?.map((item, index) => {
+                    {Object.values(education)?.map((item, index) => {
                         return (
                         <div key={index} className='resume-information-item'>
                             <div className='resume-information-icon'><SchoolIcon sx={{color: orange}}/></div>
                             <h3>{item.degreeName}</h3>
                             <p>{item.collegeName} - {item.period}</p>
-                            {item?.about?.map((key, index) => {
+                            {Object.values(item?.about)?.map((key, index) => {
                                 return <p key={index}>{key}</p>
                             })}
                         </div>)

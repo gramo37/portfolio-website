@@ -1,21 +1,35 @@
-import React from 'react'
+import React, { useState, useContext } from 'react'
 import PhotoCard from './PhotoCard'
 import "../css/ProfileFormProjects.css"
+import { DataContext } from '../pages/Profile';
+import ProjectCardModal from './ProjectCardModal';
 
 const ProfileFormProjects = () => {
+
+  const { data, setData } = useContext(DataContext);
+
+  const [showModal, setShowModal] = useState(false)
+
+  const { projects } = data
+
+  const addProjectClicked = (e) => {
+    e.preventDefault()
+    setShowModal(true)
+  }
+
   return (
+    
     <>
+      {showModal && <ProjectCardModal />}
       <h3>Projects</h3>
       <div className='profile-form-projects-container'>
-        <PhotoCard name="Coin Cap Dashboard" about={["A dashboard made using HTML CSS and React along with a custom hook for fetching data from API", "Created a responsive Navbar which shows hamburger icon in small devices.", "dsdsdssd", "dsfdsbfdsbfjkdsbfkjds"]} image="https://res.cloudinary.com/dwtxio5dn/image/upload/v1676141050/portfolio/coin-cap-dashboard_bs9wvd.png" link="https://h3-mart-project.netlify.app" />
-        <PhotoCard name="Coin Cap Dashboard" about={["A dashboard made using HTML CSS and React along with a custom hook for fetching data from API", "Created a responsive Navbar which shows hamburger icon in small devices.", "dsdsdssd", "dsfdsbfdsbfjkdsbfkjds"]} image="https://res.cloudinary.com/dwtxio5dn/image/upload/v1676141050/portfolio/coin-cap-dashboard_bs9wvd.png" link="https://h3-mart-project.netlify.app" />
-        <PhotoCard name="Coin Cap Dashboard" about={["A dashboard made using HTML CSS and React along with a custom hook for fetching data from API", "Created a responsive Navbar which shows hamburger icon in small devices.", "dsdsdssd", "dsfdsbfdsbfjkdsbfkjds"]} image="https://res.cloudinary.com/dwtxio5dn/image/upload/v1676141050/portfolio/coin-cap-dashboard_bs9wvd.png" link="https://h3-mart-project.netlify.app" />
-        <PhotoCard name="Coin Cap Dashboard" about={["A dashboard made using HTML CSS and React along with a custom hook for fetching data from API", "Created a responsive Navbar which shows hamburger icon in small devices.", "dsdsdssd", "dsfdsbfdsbfjkdsbfkjds"]} image="https://res.cloudinary.com/dwtxio5dn/image/upload/v1676141050/portfolio/coin-cap-dashboard_bs9wvd.png" link="https://h3-mart-project.netlify.app" />
-        <PhotoCard name="Coin Cap Dashboard" about={["A dashboard made using HTML CSS and React along with a custom hook for fetching data from API", "Created a responsive Navbar which shows hamburger icon in small devices.", "dsdsdssd", "dsfdsbfdsbfjkdsbfkjds"]} image="https://res.cloudinary.com/dwtxio5dn/image/upload/v1676141050/portfolio/coin-cap-dashboard_bs9wvd.png" link="https://h3-mart-project.netlify.app" />
-        <PhotoCard name="Coin Cap Dashboard" about={["A dashboard made using HTML CSS and React along with a custom hook for fetching data from API", "Created a responsive Navbar which shows hamburger icon in small devices.", "dsdsdssd", "dsfdsbfdsbfjkdsbfkjds"]} image="https://res.cloudinary.com/dwtxio5dn/image/upload/v1676141050/portfolio/coin-cap-dashboard_bs9wvd.png" link="https://h3-mart-project.netlify.app" />
-        <PhotoCard name="Coin Cap Dashboard" about={["A dashboard made using HTML CSS and React along with a custom hook for fetching data from API", "Created a responsive Navbar which shows hamburger icon in small devices.", "dsdsdssd", "dsfdsbfdsbfjkdsbfkjds"]} image="https://res.cloudinary.com/dwtxio5dn/image/upload/v1676141050/portfolio/coin-cap-dashboard_bs9wvd.png" link="https://h3-mart-project.netlify.app" />
-        <PhotoCard name="Coin Cap Dashboard" about={["A dashboard made using HTML CSS and React along with a custom hook for fetching data from API", "Created a responsive Navbar which shows hamburger icon in small devices.", "dsdsdssd", "dsfdsbfdsbfjkdsbfkjds"]} image="https://res.cloudinary.com/dwtxio5dn/image/upload/v1676141050/portfolio/coin-cap-dashboard_bs9wvd.png" link="https://h3-mart-project.netlify.app" />
+        {Object.entries(projects).map((item) => {
+          const [key, value] = item
+          const { name, link, about, image } = value
+          return <PhotoCard key={key} name={name} link={link} image={image} about={about} />
+        })}
       </div>
+      <div className='profile-form-add-project'><button onClick={addProjectClicked}>Add Project</button></div>
     </>
   )
 }

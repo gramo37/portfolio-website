@@ -27,14 +27,14 @@ const Profile = () => {
     e.preventDefault()
     console.log(data)
     // Make a API request to change user.json
-    setLoading(true)
-    axios.put(`${HOST}/api/v1/editResumeDetails`, data).then((res)=>{
-      setLoading(false)
-      navigation("/")
-    }).catch((error) => {
-      setLoading(false)
-      console.log(error)
-    })
+    // setLoading(true)
+    // axios.put(`${HOST}/api/v1/editResumeDetails`, data).then((res)=>{
+    //   setLoading(false)
+    //   navigation("/")
+    // }).catch((error) => {
+    //   setLoading(false)
+    //   console.log(error)
+    // })
   }
 
   if(loading) return <Shimmer />
