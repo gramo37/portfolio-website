@@ -29,6 +29,7 @@ app.use(express.static(path.join(__dirname, "frontend/build")));
 //Routes
 app.use('/api/v1', require('./routes/userRoute'))
 
+// Redirect to mail url
 app.get('/*', (req, res) => {
     res.redirect('/');
 });
