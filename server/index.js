@@ -13,10 +13,11 @@ process.on("uncaughtException", (err) => {
     process.exit(1)
 })
 
-connectToDatabase()
-
 var currentPath = process.cwd();
 dotenv.config({ path: path.join(currentPath, 'config/config.env') })
+
+connectToDatabase()
+
 
 const app = express();
 app.use(cors());
