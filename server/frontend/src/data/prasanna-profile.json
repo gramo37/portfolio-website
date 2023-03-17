@@ -1,107 +1,140 @@
 {
-  "data": {
-    "name": "Prasanna Gramopadhye",
-    "profession": "Frontend Developer",
-    "links": {
-      "twitter": "https://twitter.com/pushkar37",
-      "linkedin": "https://www.linkedin.com/in/pushkar-gramopadhye-1791701b9",
-      "github": "https://github.com/gpushkar"
+  "name": "Prasanna Gramopadhye",
+  "profession": "Web Developer",
+  "links": {
+    "twitter": "https://twitter.com/gramopadhye37",
+    "linkedin": "https://www.linkedin.com/in/prasanna-gramopadhye/",
+    "github": "https://github.com/gramo37"
+  },
+  "profilePhoto": "https://res.cloudinary.com/dwtxio5dn/image/upload/v1676140913/portfolio/prasanna_slx3qm.jpg",
+  "phone": "+91 7875594848",
+  "email": "gramopadhye37@gmail.com",
+  "introduction": {
+    "line12321231": "Innovative Frontend Developer with expertise in HTML, CSS, Javascript, React, Tailwind CSS, and many other modern libraries and frameworks.",
+    "line25dnkxrg9a": "Currently working as an Assistant System Engineer at Tata Consultancy Services Ltd where I am responsible for monitoring different Stored Procedures, Queries, and Functions for SQL server performance monitoring."
+  },
+  "resumeLink": "https://drive.google.com/file/d/1x2FyAVHZsbo8aBqcdNSqXAm16QIYmtkM/view",
+  "workExperience": {
+    "linef4uugtbkjf": {
+      "position": "Assistant System Engineer",
+      "companyName": "Tata Consultancy Services Ltd",
+      "about": {
+        "line1": "Working as Assistant System Engineer at TCS a global leader in IT services, consulting & business solutions.",
+        "line7jt9o8se2f": "Responsible for monitoring different Stored Procedures, Queries and Functions for SQL server performance monitoring. Key Technologies worked: SQL, SQL server Management Studio, Gitlab."
+      },
+      "period": "Sept 2021 - Present"
     },
-    "profilePhoto": "https://res.cloudinary.com/dwtxio5dn/image/upload/v1676140913/portfolio/prasanna_slx3qm.jpg",
-    "phone": "+91 7875594848",
-    "email": "gramopadhye37@gmail.com",
-    "introduction": {
-      "line12321231": "Innovative Frontend Developer with expertise in HTML, CSS, Javascript, React, Tailwind CSS, and many other modern libraries and frameworks.",
-      "line25dnkxrg9a": "Currently working as an Assistant System Engineer at Tata Consultancy Services Ltd where I am responsible for monitoring different Stored Procedures, Queries, and Functions for SQL server performance monitoring."
+    "linef4uugtbkof": {
+      "position": "Assistant System Engineer - Trainee",
+      "companyName": "Tata Consultancy Services Ltd",
+      "about": {
+        "line1jt9o8se2f": "Learned about OOPs concept in Java and cleared the CPA Exam successfully.",
+        "line7jt9o8se2f": "Learned basics of HTML, CSS, JavaScript and Web development from industry experts at TCS.",
+        "line6jt9o8se2f": "Learned Data Structures and Algorithms and solved problems based on them."
+      },
+      "period": "Sept 2021 - Present"
+    }
+  },
+  "education": [
+    {
+      "degreeName": "Scaler",
+      "collegeName": "A Structured and Flexible Online Program",
+      "period": "Apr 2021 - Present",
+      "about": [
+        "Solved more than 400 DSA Problems",
+        "Currently learning about DBMS, OS and Computer Networking.",
+        "Will be learning System Design"
+      ]
     },
-    "resumeLink": "https://drive.google.com/fil2FyAVHZsbo8aBqcdNSqXAm16QIYmtkM/view?usp=sharing",
-    "workExperience": {
-      "linef4uugtbkjf": {
-        "position": "Assistant System Engineer",
-        "companyName": "Tata Consultancy Services Ltd",
-        "about": {
-          "line1": "Working as Assistant System Engineer at TCS a global leader in IT services, consulting & business solutions.",
-          "line7jt9o8se2f": "Responsible for monitoring different Stored Procedures, Queries and Functions for SQL server performance monitoring. Key Technologies worked: SQL, SQL server Management Studio, Gitlab."
-        },
-        "period": "Sept 2021 - Present"
-      },
-      "linef4uugtbkof": {
-        "position": "Assistant System Engineer - Trainee",
-        "companyName": "Tata Consultancy Services Ltd",
-        "about": {
-          "line1jt9o8se2f": "Learned about OOPs concept in Java and cleared the CPA Exam successfully.",
-          "line7jt9o8se2f": "Learned basics of HTML, CSS, JavaScript and Web development from industry experts at TCS.",
-          "line6jt9o8se2f": "Learned Data Structures and Algorithms and solved problems based on them."
-        },
-        "period": "Sept 2021 - Present"
-      }
+    {
+      "degreeName": "Bachelors Degree",
+      "collegeName": "Pune Vidyarthi Griha's College of Engineering",
+      "period": "Mar 2017 - Apr 2021",
+      "about": [
+        "Completed My Bachelors degree in Electrical Engineering From Pune Vidyaarthi griha's college of engineering with 8.84 CGPA."
+      ]
+    }
+  ],
+  "skills": {
+    "skill323232": {
+      "name": "HTML5",
+      "proficiency": 60
     },
-    "education": {
-      "line12323": {
-        "degreeName": "Scaler",
-        "collegeName": "A Structured and Flexible Online Program",
-        "period": "Apr 2021 - Present",
-        "about": {
-          "line1": "Solved more than 400 DSA Problems",
-          "line2": "Currently learning about DBMS, OS and Computer Networking.",
-          "line3": "Will be learning System Design"
-        }
-      },
-      "line11323": {
-        "degreeName": "Scaler",
-        "collegeName": "A Structured and Flexible Online Program",
-        "period": "Apr 2021 - Present",
-        "about": {
-          "line1": "Solved more than 400 DSA Problems",
-          "line2": "Currently learning about DBMS, OS and Computer Networking.",
-          "line3": "Will be learning System Design"
-        }
-      }
+    "skill243234": { 
+        "name": "CSS", 
+        "proficiency": 50 
     },
-    "skills": {
-      "skill323232": {
-        "name": "HTML5",
-        "proficiency": 60
-      },
-      "skill243234": {
-        "name": "CSS",
-        "proficiency": 50
-      },
-      "skilljjkx0lfbq9": {
-        "name": "React",
-        "proficiency": 50
-      },
-      "skillk2lmhaxr9k": {
-        "name": "MongoDB",
-        "proficiency": 30
-      },
-      "skillxoq42j59vij": {
-        "name": "NodeJS",
-        "proficiency": 40
-      },
-      "skillxoq42j59vaj": {
-        "name": "SQL",
-        "proficiency": 50
-      },
-      "skillxoq42a59vbj": {
-        "name": "Java",
-        "proficiency": 40
-      },
-      "skillxoq42a59vaj": {
-        "name": "Python",
-        "proficiency": 30
-      }
+    "skilljjkx0lfbq9": { 
+        "name": "React", 
+        "proficiency": 50 
     },
-    "projects": {
-      "line1": {
-        "name": "Resume Builder",
-        "link": "https://resume-builder-3789.netlify.app",
-        "about": {
-          "line1": "A Web app built using react and Redux where students/professionals can create resumes within no time",
-          "line2": "Tech Stack: HTML, CSS, React, Redux"
-        },
-        "image": "https://res.cloudinary.com/dwtxio5dn/image/upload/v1676140917/portfolio/resume-builder_twjaka.png"
-      }
+    "skillk2lmhaxr9k": { 
+        "name": "MongoDB", 
+        "proficiency": 30 
+    },
+    "skillxoq42j59vij": { 
+        "name": "NodeJS", 
+        "proficiency": 40 
+    },
+    "skillxoq42j59vaj": { 
+        "name": "SQL", 
+        "proficiency": 50 
+    },
+    "skillxoq42a59vbj": { 
+        "name": "Java", 
+        "proficiency": 40 
+    },
+    "skillxoq42a59vaj": { 
+        "name": "Python", 
+        "proficiency": 30 
+    }
+  },
+  "projects": {
+    "projectxoq42a59vaj": {
+      "name": "Resume Builder",
+      "about": [
+        "A Web app built using react and Redux where students/professionals can create resumes within no time",
+        "Tech Stack: HTML, CSS, React, Redux"
+      ],
+      "image": "https://res.cloudinary.com/dwtxio5dn/image/upload/v1676140917/portfolio/resume-builder_twjaka.png",
+      "link": "https://resume-builder-3789.netlify.app"
+    },
+    "projectxoq42a59vpj": {
+      "name": "Coin Cap Dashboard",
+      "about": [
+        "A dashboard made using HTML CSS and React along with a custom hook for fetching data from API",
+        "Created a responsive Navbar which shows hamburger icon in small devices."
+      ],
+      "image": "https://res.cloudinary.com/dwtxio5dn/image/upload/v1676141050/portfolio/coin-cap-dashboard_bs9wvd.png",
+      "link": "https://h3-mart-project.netlify.app"
+    },
+     "projectxoq41a59vpj": {
+      "name": "Online Examination Portal",
+      "about": [
+        "An Online Examination Portal where in teachers can create and conduct MCQ exams for their students and also calculate their scores.",
+        "Tech Stack: HTML, CSS, TailwindCSS, React, MongoDB, Node, Express"
+      ],
+      "image": "https://res.cloudinary.com/dwtxio5dn/image/upload/v1676140929/portfolio/onlineExamPortal_h3moow.png",
+      "link": "https://online-examination-portal.netlify.app"
+    },
+     "projectooq42a59vpj": {
+      "name": "Sudoku Solver",
+      "about": [
+        "A backtracking algorithm which can solve the sudoku within seconds!!"
+      ],
+      "image": "https://res.cloudinary.com/dwtxio5dn/image/upload/v1676140921/portfolio/sudoku_fzgfna.png",
+      "link": "https://sudoku-solver-using-backtracking.netlify.app"
+    },
+    "projectooq42a59voj": {
+      "name": "Grocery App",
+      "about": [
+        "Basic Mobile App to browse, search for products and also add to cart.",
+        "It can also make API request to place order.",
+        "Tech Stack - React Native, Node, Express"
+      ],
+      "image": "https://res.cloudinary.com/dwtxio5dn/image/upload/v1676831350/portfolio/smart_app_hrhydk.png",
+      "link": "https://drive.google.com/file/d/1jbe5NRZe9oApo1wo5t1RiF0Ab9b491xf/view"
     }
   }
+  
 }
