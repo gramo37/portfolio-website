@@ -15,6 +15,15 @@
   },
   "resumeLink": "https://drive.google.com/file/d/1x2FyAVHZsbo8aBqcdNSqXAm16QIYmtkM/view",
   "workExperience": {
+    "linef4uugtbkjp": {
+      "position": "Consultant",
+      "companyName": "Optanium Gmbh",
+      "about": {
+        "line1": "Responsible for creating frontends in React JS.",
+        "line7jt9o8se2f": "Also responsible for creating rest APIs in Node, PostgreSQL and Express."
+      },
+      "period": "May 2023 - Present"
+    },
     "linef4uugtbkjf": {
       "position": "Assistant System Engineer",
       "companyName": "Tata Consultancy Services Ltd",
@@ -22,7 +31,7 @@
         "line1": "Working as Assistant System Engineer at TCS a global leader in IT services, consulting & business solutions.",
         "line7jt9o8se2f": "Responsible for monitoring different Stored Procedures, Queries and Functions for SQL server performance monitoring. Key Technologies worked: SQL, SQL server Management Studio, Gitlab."
       },
-      "period": "Sept 2021 - Present"
+      "period": "Sept 2021 - May 2023"
     },
     "linef4uugtbkof": {
       "position": "Assistant System Engineer - Trainee",
@@ -32,7 +41,7 @@
         "line7jt9o8se2f": "Learned basics of HTML, CSS, JavaScript and Web development from industry experts at TCS.",
         "line6jt9o8se2f": "Learned Data Structures and Algorithms and solved problems based on them."
       },
-      "period": "Sept 2021 - Present"
+      "period": "July 2021 - Present"
     }
   },
   "education": [
@@ -55,6 +64,19 @@
       ]
     }
   ],
+  "achievements": {
+    "line1": {
+      "achievementName": "Sports",
+      "desc": "Gold Medalist in Football",
+      "about": {
+        "line1jt9o8se2f": "Learned about OOPs concept in Java and cleared the CPA Exam successfully.",
+        "line7jt9o8se2f": "Learned basics of HTML, CSS, JavaScript and Web development from industry experts at TCS.",
+        "line6jt9o8se2f": "Learned Data Structures and Algorithms and solved problems based on them."
+      },
+      "period": "Sept 2021 - Present"
+    },
+    "line2": {}
+  },
   "skills": {
     "skill323232": {
       "name": "HTML5",

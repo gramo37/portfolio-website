@@ -10,6 +10,7 @@ import axios from "axios"
 import {useNavigate} from "react-router-dom"
 import Shimmer from '../components/Shimmer'
 import { HOST } from '../config/config'
+import ProfileFormAchievements from '../components/ProfileFormAchievements'
 
 export const DataContext = React.createContext();
 
@@ -48,6 +49,8 @@ const Profile = () => {
           <ProfileFormSkills />
           <ProfileFormWorkExperience />
           <ProfileFormEducation />
+          {/* Add Achievements */}
+          <ProfileFormAchievements />
           <ProfileFormProjects />
           <div className='profile-form-submit-button'><button type='submit' onClick={handleSubmit}>Submit Details</button></div>
         </form>

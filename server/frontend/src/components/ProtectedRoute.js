@@ -7,13 +7,13 @@ const ProtectedRoute = ({ Component }) => {
     const navigate = useNavigate()
 
     useEffect(() => {
-        if(!auth) navigate("/login")
+        // if(!auth) navigate("/login")
     }, [])
 
 
-    if (!auth) {
-        return <div>Please login to use this utility</div>
-    }
+    // if (!auth) {
+    //     return <div>Please login to use this utility</div>
+    // }
 
 
     return (
