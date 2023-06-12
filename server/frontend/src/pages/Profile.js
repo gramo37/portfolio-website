@@ -6,10 +6,10 @@ import ProfileFormSkills from '../components/ProfileFormSkills'
 import ProfileFormWorkExperience from '../components/ProfileFormWorkExperience'
 import "../css/Profile.css"
 import { UserContext } from "../components/App"
-import axios from "axios"
+// import axios from "axios"
 import {useNavigate} from "react-router-dom"
 import Shimmer from '../components/Shimmer'
-import { HOST } from '../config/config'
+// import { HOST } from '../config/config'
 import ProfileFormAchievements from '../components/ProfileFormAchievements'
 
 export const DataContext = React.createContext();

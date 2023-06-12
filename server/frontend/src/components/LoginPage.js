@@ -2,27 +2,27 @@ import React, { useState, useContext } from 'react'
 import "../css/LoginPage.css"
 import { UserContext } from './App'
 import { Link, useNavigate } from "react-router-dom"
-import { username, password as pass } from '../config/config'
-import { red } from '../assets/colors'
+// import { username, password as pass } from '../config/config'
+// import { red } from '../assets/colors'
 
 const LoginPage = () => {
 
     const [secretCode, setSecretCode] = useState("")
     const [password, setPassword] = useState("")
 
-    const { setAuth, showMyAlert } = useContext(UserContext)
+    // const { setAuth, showMyAlert } = useContext(UserContext)
 
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
 
     const handleSubmit = (e) => {
-        e.preventDefault()
-        if (secretCode === username && password === pass) { 
-            setAuth(true)
-            navigate("/profile")
-        }
-        else {
-            showMyAlert("Please enter correct login credentials", red)
-        }
+        // e.preventDefault()
+        // if (secretCode === username && password === pass) { 
+        //     setAuth(true)
+        //     navigate("/profile")
+        // }
+        // else {
+        //     showMyAlert("Please enter correct login credentials", red)
+        // }
     }
 
     return (
